@@ -1,0 +1,34 @@
+/* importing poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap");
+
+/* overriding styling */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primaryBg: #0b0f1a;
+  --color-secondaryBg: #111827;
+  --color-cardBg: #1f2937;
+  --color-accent: #7c3aed;
+  --color-accentCyan: #22d3ee;
+  --color-textPrimary: #f9fafb;
+  --color-textSecondary: #9ca3af;
+  --color-textMuted: #6b7280;
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}

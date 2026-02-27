@@ -1,0 +1,19 @@
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGrad" x1="0" y1="0" x2="240" y2="0">
+      <stop offset="0%" stop-color="#7F00FF"/>
+      <stop offset="100%" stop-color="#E100FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Film Frame Icon -->
+  <rect x="10" y="15" width="32" height="30" rx="6" fill="#111111" stroke="url(#neonGrad)" stroke-width="2"/>
+  <circle cx="16" cy="20" r="2" fill="url(#neonGrad)"/>
+  <circle cx="16" cy="40" r="2" fill="url(#neonGrad)"/>
+  <polygon points="22,22 36,30 22,38" fill="url(#neonGrad)"/>
+
+  <!-- Text -->
+  <text x="55" y="38" font-family="Inter, Poppins, sans-serif" font-size="28" font-weight="700" fill="white">
+    Cine<tspan fill="url(#neonGrad)">Verse</tspan>
+  </text>
+</svg>
